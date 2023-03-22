@@ -1,0 +1,137 @@
+/* ================lvl_1_2======================= */
+
+/* .style {
+    display: inline-block;
+    border-radius: 5px;
+    background: #666;
+    color: white;
+    padding: 5px;
+}
+
+.example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+} */
+
+/* ============lvl_1_5====================== */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    background: linear-gradient(-90deg, #f6ad7b,
+        #be7575);
+}
+
+section {
+    margin: 100px auto;
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid #c2e8ce;
+    color: #c2e8ce;
+} */
+
+/* ==============lvl_1_6==================== */
+
+/* body {
+    font-family: sans-serif;
+}
+
+select {
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 2rem;
+    outline: 0;
+} */
+
+/* ===============lvl_2_1/lvl_2_3=================== */
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listContainer {
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+} */
+
+/* ================lvl_2_2================= */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.lvl_2_2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    padding: 15px 50px;
+    margin-bottom: 30vh;
+    text-align: center;
+    font-size: 80px;
+}
+
+.lvl_2_2 .first-line {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 30px;
+}
+
+.lvl_2_2 p {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+} */
+
+/* ================lvl_2_4================= */
+
+form {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
+
+input {
+    background: #333;
+    color: white;
+}
