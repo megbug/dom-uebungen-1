@@ -82,7 +82,7 @@
 -->
 
 <!-- Lvl_2_4-->
-<form>
+<!-- <form>
 	<select id="farbeAuswahlen">
         <option id="1">Medium Orchid</option>
         <option id="2">Mint Cream</option>
@@ -96,11 +96,27 @@
         <option id="10">Slate Gray</option>
 	</select>
 	<button id="button">Farbe von Liste Background farben</button>
-</form>
+</form> -->
 
+<h1>Meine dynamische Webseite</h1>
+<p id="demo">Wähle eine Farbe:</p>
+<p>
+    <button onclick="changeBackground('rosybrown')">Rosa</button>
+    <button onclick="changeBackground('purple')">Lila</button>
+    <button onclick="changeBackground('orange')">Orange</button>
+</p>
+<p>
+    <input type="range" id="rot" value="255" min="0" max="255" onchange="changeHandle()" style="background:red">
+	Rot<br>
+	<input type="range" id="grun" value="255" min="0" max="255" onchange="changeHandle()" style="background:green">
+	Grün<br>
+	<input type="range" id="blau" value="255" min="0" max="255" onchange="changeHandle()" style="background:blue">
+	Blau
+</p>
 
     <!-- <script src="./assets/js/lvl_1.js"></script> -->
-    <script src="./assets/js/lvl_2.js"></script>
+    <!-- <script src="./assets/js/lvl_2.js"></script> -->
+    <script src="./assets/js/lvl_3.js"></script>
 </body>
 </html>
 

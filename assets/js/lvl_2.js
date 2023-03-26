@@ -33,44 +33,84 @@ document.body.addEventListener('keydown', (event)=> {
 */
 
 // ===========================lvl_2_3========================
+
 /*
 const changeButton = document.querySelector('#navChange');
+const navHome = document.getElementsByTagName('li')[0];
+const navNews = document.getElementsByTagName('li')[1];
+const navContact = document.getElementsByTagName('li')[2];
 
-changeButton.addEventListener('click', change = () => {
-    document.getElementsByTagName('li')[0].style.backgroundColor = "#f6c89f";
-    document.getElementsByTagName('li')[1].style.backgroundColor = "#ffe7d1";
-    document.getElementsByTagName('li')[2].style.backgroundColor = "#4b8e8d";
+const navHome2 = document.getElementsByClassName('nav')[0];
+const navNews2 = document.getElementsByClassName('nav')[1];
+const navContact2 = document.getElementsByClassName('nav')[2];
+
+// changeButton.addEventListener('click', change = () => {
+    navHome.style.backgroundColor = "#f6c89f";
+    navNews.style.backgroundColor = "#ffe7d1"; 
+    navContact.style.backgroundColor = "#4b8e8d"; 
+
     changeButton.style.backgroundColor = "#396362";
-    document.getElementsByTagName('a')[0].style.color = "#333";
-    document.getElementsByTagName('a')[1].style.color = "#333";
-    document.getElementsByTagName('a')[2].style.color = "#333";
-    changeButton.style.color = "#333";
-});
+
+    navHome2.style.color = "#333"; 
+    navNews2.style.color = "#333";
+    navContact2.style.color = "#333";
+    // oder möglichkeit alles einheitlich zu stylen? 
+
+    // changeButton.style.color = "#333";
+// });
 */
 
 // ===========================lvl_2_4========================
 
 // const colorButton = document.querySelector('#button');
-// const MeOr = document.querySelector('#1');
-// const selectedOption = document.querySelector('#farbeAuswahlen');
-// const body = document.querySelector('#body');
+// const selectedElement = document.querySelector('#farbeAuswahlen');
 
-// selectedOption[0].style.backgroundColor = "Medium Orchid";
 
-// colorButton.addEventListener('click', () => {
-    // const selectedColor = selectedOption.value;
-    // body.style.backgroundColor = selectedColor;
+// colorButton.addEventListener('click', (event) => {
+//     event.preventDefault();
+//     const index = selectedElement.selectedIndex;
 
-    // console.log(selectedOption);
-    
-    // document.body.style.backgroundColor = "MediumOrchid";
-    // selectedOption[0].style.backgroundColor = "Medium Orchid";
-// })
-const button = document.querySelector("#button");
-const select = document.querySelector("#farbeAuswahlen");
-const body = document.querySelector("body");
+//     switch (index) {
+//         case 0:
+//             document.body.style.backgroundColor = "mediumorchid"
+//             break;
+//         case 1: 
+//             document.body.style.backgroundColor = "mintcream"
+//             break;
+//         case 2: 
+//             document.body.style.backgroundColor = "dodgerblue"
+//             break;
+//         case 3: 
+//             document.body.style.backgroundColor = "goldenrod"
+//             break;
+//         case 4: 
+//             document.body.style.backgroundColor = "wheat"
+//             break;
+//         case 5: 
+//             document.body.style.backgroundColor = "mediumturquoise"
+//             break;
+//         case 6: 
+//             document.body.style.backgroundColor = "moccasin"
+//             break;
+//         case 7: 
+//             document.body.style.backgroundColor = "firebrick"
+//             break;
+//         case 8: 
+//             document.body.style.backgroundColor = "limegreen"
+//             break;
+//         case 9: 
+//             document.body.style.backgroundColor = "slategrey"
+//             break;
+//         default:
+//             break;
+//     }
+// });
 
-button.addEventListener("click", () => {
-    const selectedColor = select.value;
-    body.style.backgroundColor = selectedColor;
+/*
+colorButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        const valueSelectElement = selectedElement.value;
+
+        document.body.style.backgroundColor = valueSelectElement.replace(" ", "");
 });
+*/
