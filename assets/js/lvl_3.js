@@ -9,13 +9,13 @@ const changeBackground = (defaultColor) => {
     result.innerHTML = `Wir haben die Farbe ${count} mal geändert`;
 }
 
-
-
 let inputRed = document.querySelector('#rot');
 let inputGreen = document.querySelector('#grun');
 let inputBlue = document.querySelector('#blau');
 
 const changeHandle = () => {
     let color = document.body.style.backgroundColor = `rgb(${inputRed.value}, ${inputGreen.value}, ${inputBlue.value})`;
-    result.innerHTML = color;
+
+    result.innerHTML = color
+    result.innerHTML = color + " = #" + (Number(inputRed.value).toString(16) + Number(inputGreen.value).toString(16) + Number(inputBlue.value).toString(16));
 }
